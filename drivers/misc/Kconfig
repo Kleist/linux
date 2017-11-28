@@ -4,6 +4,11 @@
 
 menu "Misc devices"
 
+config HELLO_VERSION
+	tristate "Andreas' Hello Version module"
+	help
+	  Very useful help message for you to read!
+
 config SENSORS_LIS3LV02D
 	tristate
 	depends on INPUT
